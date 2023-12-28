@@ -9,4 +9,9 @@ body{
     color : white;
     font-size : 5rem;
     font-family : "Space Mono", monospace;
+    background: linear-gradient(
+      to right,
+      aquamarine,
+      mediumpurple
+    );
   }
