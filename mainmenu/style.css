@@ -13,6 +13,7 @@ body{
     align-items: center;
     min-height: 100vh;
     background-color:  #07252d;
+    
 }
 ul li{
     position: relative;
@@ -73,4 +74,14 @@ ul li::after{
     transform-origin: bottom;
     transform: skewX(45deg);
     transition: 0.5s;
+}
+h1{
+    color: #fff;
+    text-shadow: 0 0 10px rgb(73, 187, 233),
+    0 0 20px rgb(73, 187, 233),
+    0 0 40px rgb(73, 187, 233),
+    0 0 80px rgb(73, 187, 233),
+    0 0 160px rgb(73, 187, 233);
+    
+    padding-bottom: 20%;
 }

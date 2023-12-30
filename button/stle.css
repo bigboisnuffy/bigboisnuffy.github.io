@@ -31,6 +31,40 @@ span{
     animation: animate 1s linear infinite;
    
 }
+header:hover{
+    transform: translateX(25);
+}
+
+header{
+    padding-bottom: 10%;
+    padding-top: 10px;
+    padding-right: 10%;
+
+}
+.jj{
+   
+    font-family: sans-serif;
+ 
+    position: relative;
+
+    font-size: 50px;
+    padding: 12px 36px;
+    margin: 10px 0;
+    display: inline-block;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0 0 10px rgb(73, 187, 233),
+    0 0 20px rgb(73, 187, 233),
+    0 0 40px rgb(73, 187, 233),
+    0 0 80px rgb(73, 187, 233),
+    0 0 160px rgb(73, 187, 233);
+    text-transform: uppercase;
+   background:  linear-gradient(90deg,#0162c8,#55e7fc);
+   overflow: hidden; 
+
+}
 @keyframes animate {
     0%{
         width: 0px;
